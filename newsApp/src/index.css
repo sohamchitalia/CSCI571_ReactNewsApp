@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* .navMain{
+  background-image: 'linearGradient(160deg,#010112,#171b45,#21307f,#2645bf,#3c5ad0,#4e6fe2,#5e85f4)',
+} */
+
+.asyncBox{
+  width: 80%;
+}
+
+
+@media (min-width:992px){
+  .asyncBox{
+    width: 18%;
+  }
+}
+
+
+.activeButton{
+  color: white;
+}
+.btnclass{
+  color: rgb(147,157,180);
+}
+.btnclass:link{
+  color: rgb(147,157,180);
+}
+.btnclass:hover{
+  color: white;
+}
+
+.toastCSS {
+  color: black;
+  text-align: left;
+}
+
+.world{
+  background-color: #7c4eff;
+  color: white;
+}
+.politics{
+  background-color: #419488;
+  color: white;
+}
+.technology{
+  background-color: #cedc39;
+  color: black;
+}
+.business{
+  background-color: #4596ec;
+  color: white;
+}
+.sports{
+  background-color: #f6c244;
+  color: black;
+}
+.sport{
+  background-color: #f6c244;
+  color: black;
+}
+.nytimes{
+  background-color: #dddddd;
+  color: black;
+}
+.guardian{
+  background-color: #14284a;
+  color: white;
+}
+
+.default{
+  background-color: #6e757c;
+  color: white;
+}
+.commentbox iframe{
+   overflow: hidden;
+}
+
+.commentbox iframe :after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
