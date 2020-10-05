@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## About 
+A news app built using React.JS, Node.JS and APIs from Guardian and NYTimes. The search bar uses autocomplete function that has been plugged in using microsoft azure. 
+
+### `npm start` 
+in the root directory to run start node server
+
+### `npm start` 
+in the 'weatherApp' directory to run react server. 
+
 ## Available Scripts
 
 In the project directory, you can run:
